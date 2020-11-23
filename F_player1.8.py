@@ -8,7 +8,7 @@ x = "700"
 y = "100"
 root = Tk()
 root.geometry(x+"x"+y)
-root.title("F_player Ver.:1.7")
+root.title("F_player Ver.:1.8")
 root.resizable(0,0)
 currentFile = False
 Play=False
@@ -30,7 +30,7 @@ V1=2
 From_openWindow=True
 directorio = 0
 def aboutShow():
-    messagebox.showinfo(title="About F_Player", message = "F_player is a free music player for mp3 and wav developed by Fernando Jelvez, version:1.7")
+    messagebox.showinfo(title="About F_Player", message = "F_player is a free music player for mp3 and wav developed by Fernando Jelvez, version:1.8")
 def aboutContact():
     messagebox.showinfo(title="Contact", message = "On GitHub:Fernando-Jelvez/Gmail:fernandojelvez2017@gmail.com")
 def openFile():
